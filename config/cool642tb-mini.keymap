@@ -66,11 +66,13 @@
 
         NUM {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(POUND)  &kp LS(NUMBER_4)  &kp LS(N5)                                    &trans       &kp ASTRK     &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE   &kp PIPE
-&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)     &kp LS(N9)        &kp LS(DQT)       &kp LS(LT)      &kp LS(GT)  &kp LS(DQT)  &kp LS(RPAR)  &kp UP_ARROW          &kp LEFT_BRACKET  &kp SEMICOLON
-&kp PLUS          &kp UNDER         &kp EQUAL      &kp 0x89          &kp LEFT_BRACKET  &kp LS(0x87)    &trans      &kp HOME     &kp LEFT      &kp DOWN              &kp RIGHT         &kp END
-&trans            &trans            &trans         &trans            &trans            &trans          &trans      &trans                                                             &trans
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(POUND)  &kp LS(NUMBER_4)  &kp LS(N5)                                      &trans       &kp ASTRK     &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE   &kp PIPE
+&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)     &kp LS(N9)        &kp LS(DQT)       &kp LS(LT)        &kp LS(GT)  &kp LS(DQT)  &kp LS(RPAR)  &kp UP_ARROW          &kp LEFT_BRACKET  &kp SEMICOLON
+&kp PLUS          &kp UNDER         &kp EQUAL      &kp 0x89          &kp LEFT_BRACKET  &kp LS(0x87)      &trans      &kp HOME     &kp LEFT      &kp DOWN              &kp RIGHT         &kp END
+&trans            &trans            &trans         &trans            &trans            &trans            &trans      &trans                                                             &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRI_DEC>;
         };
 
         ARROW {
